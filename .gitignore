@@ -1,0 +1,57 @@
+# --- Environments ---
+.venv/
+venv/
+env/
+japankify_env/
+__pycache__/
+*.pyc
+
+# --- Streamlit & Secrets (CRITICAL) ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Secrets & Credentials ---
+.env
+*.yaml
+*.toml
+
+# --- AWS & Local Data ---
+# Ignore the local Parquet/CSV files -- too heavy for Git
+*.parquet
+*.csv
+*.xls
+*.xlsx
+.aws/
+*.json
+*.zip
+# Except vocab & kanji database metadata
+!my_wordbank_voc_kan_metadata.json
+!kaggle_voc_kan_metadata.json
+# Except review history
+!assets/review_history.parquet
+AWS tools/
+
+
+# --- User-Specific Notes (Requested) ---
+# Excludes all your personal documentation and notes
+*.doc
+*.docx
+*.pdf
+# Also common for notes
+*.txt
+# Except requirements file
+!requirements.txt
+!why_gemini_makes_rare_typos.docx
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Development Tools ---
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
