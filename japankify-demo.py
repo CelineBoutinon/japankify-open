@@ -46,7 +46,7 @@ if koto_data is not None:
         st.markdown(f"""
     <div style="text-align: left; display: flex; justify-content: left; align-items: baseline; gap: 5px; margin-bottom: 20px;">
         <h2 style="margin: 0; display: inline;">
-            🪪 Japanese pearls of wisdom - today's 
+            🦪 Japanese pearls of wisdom - today's 
             <span style="margin-right: 2px;">
                 <ruby>四<rt style="color: gray; font-size: 0.4em;">よ</rt></ruby><ruby>字<rt style="color: gray; font-size: 0.4em;">じ</rt></ruby><ruby>熟<rt style="color: gray; font-size: 0.4em;">じゅく</rt></ruby><ruby>語<rt style="color: gray; font-size: 0.4em;">ご</rt></ruby>
             </span>
