@@ -36,7 +36,7 @@ if 'kanji_session_indices' not in st.session_state:
 
     if kanji_filter == "JLPT":
         if level == 'All JLPT':
-            potential_kanji = kanji[kanji['JLPT_level'].isin(['N5', 'N4', 'N3', 'N2', 'N1'])].copy()
+            potential_kanji = kanji[kanji['JLPT_level'].isin(['N5', 'N4', 'N3'])].copy()
         else:
             potential_kanji = kanji[kanji['JLPT_level'] == level].copy()
  
