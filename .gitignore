@@ -19,11 +19,13 @@ __pycache__/
 # Ignore the local Parquet/CSV files -- too heavy for Git
 *.parquet
 *.csv
+*.svg
 *.xls
 *.xlsx
 .aws/
 *.json
 *.zip
+*.ipynb
 # Except vocab & kanji database metadata
 !my_wordbank_voc_kan_metadata.json
 !kaggle_voc_kan_metadata.json
