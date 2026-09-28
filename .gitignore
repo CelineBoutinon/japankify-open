@@ -6,30 +6,29 @@ japankify_env/
 __pycache__/
 *.pyc
 
-# --- Streamlit & Secrets (CRITICAL) ---
-.streamlit/secrets.toml
-.streamlit/config.toml
-
 # --- Secrets & Credentials ---
 .env
 *.yaml
 *.toml
+# Exempt GitHub Actions workflows
+!.github/workflows/
+.cache_ggshield
+
+# --- Streamlit & Secrets (CRITICAL) ---
+.streamlit/secrets.toml
+!.streamlit/config.toml 
+# Config file is safe to include in Git, as it does not contain secrets but only formatting and layout settings for the Streamlit app.
+
 
 # --- AWS & Local Data ---
-# Ignore the local Parquet/CSV files -- too heavy for Git
-*.parquet
-*.csv
 *.xls
 *.xlsx
 .aws/
-*.json
 *.zip
-# Except vocab & kanji database metadata
-!my_wordbank_voc_kan_metadata.json
-!kaggle_voc_kan_metadata.json
-# Except review history
-!assets/review_history.parquet
-AWS tools/
+*.ipynb
+!assets/csv-to-parquet_converter.ipynb
+kanji_animations/
+numbered_stroke_order/
 
 
 # --- User-Specific Notes (Requested) ---
@@ -41,7 +40,7 @@ AWS tools/
 *.txt
 # Except requirements file
 !requirements.txt
-!why_gemini_makes_rare_typos.docx
+
 
 # --- OS Specific ---
 .DS_Store

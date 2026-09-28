@@ -1,0 +1,20 @@
+[theme]
+# Sango Red - for progress bars and primary buttons
+primaryColor = "#E63946"
+
+# Gofun White - the off-white background for that "paper" feel
+backgroundColor = "#F7F2F0"
+
+# Sakura-nezumi - for sidebar and secondary elements
+secondaryBackgroundColor = "#E8E1DF"
+
+# Kachi Navy - for all text
+textColor = "#242164"
+
+# Set font to serif for a more traditional Mincho look
+font = "serif"
+
+[server]
+# Helpful if you're running locally with a lot of data
+enableCORS = false
+
