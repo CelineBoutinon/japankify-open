@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <img src="japankify_kan.gif" alt="Japankify Kanji review" width="75%"><br>
+  <img src="images/japankify_kan.gif" alt="Japankify Kanji review" width="75%"><br>
   <em>A quick kanji review</em>
 </p>
 
@@ -87,7 +87,7 @@ The app's architecture leverages AWS serverless components and has been designed
 * **Cost-Free Transactional Alerts:** Automated study alerts and customised statistics are dispatched via AWS Simple Email Service (SES), leveraging cloud-native email delivery without incurring server provisioning costs or SaaS subscription fees.
 
 <p align="center">
-  <img src="japankify_AWS_archi.png" alt="Japankify AWS Architecture Diagram"><br>
+  <img src="images/japankify_AWS_archi.png" alt="Japankify AWS Architecture Diagram"><br>
   <em> Japankify's Architecture Overview</em>
 </p>
 
@@ -138,7 +138,7 @@ Japankify’s Streamlit UI is engineered to eliminate cognitive friction, keepin
 * **Distinct session parameters by study topic:** Learners choose their tier (`N5` through `N1` or `All JLPT`), batch size (1 to 100 review items) and spaced-repetition filters (`only_due` toggles) in a side-by-side layout for vocabulary and kanji. The kanji section also offers a review option by School Grade level covering the 1,006 Kyōiku kanji taught to Japanese students during their first 6 years of primary school as well as 20 kanji appearing in [Japanese prefecture names](https://en.wikipedia.org/wiki/Prefectures_of_Japan) and which were added to the syllabus in 2017 - an important subset of kanji learning which allows the learner to read about 95% of the kanji used in everyday Japanese printed media when fully mastered.
 
 <p align="center">
-  <img src="japankify_home-page.png" alt="Japankify Home Page" width="60%"><br>
+  <img src="images/japankify_home-page.png" alt="Japankify Home Page" width="60%"><br>
   <em>The Japankify Home Page - session parameters selection & cultural note</em>
 </p>
 
@@ -150,12 +150,12 @@ Japankify’s Streamlit UI is engineered to eliminate cognitive friction, keepin
 * **Multi-Sensory Reinforcement (Audio & Writing Practice):** Integrated web speech synthesis allows users to replay native audio for both target vocabulary and full context example words or sentences at a natural speech cadence. Writing practice is added to encourage committing new kanji to memory ; static numbered stroke-order diagrams sit directly alongside animated & replayable calligraphy components on the back of the kanji card, accompanied by an instant "🖨️ Print Practice Sheet" button that dynamically generates downloadable & printable Genkouyoushi PDF grids for home writing practice.
 
 <p align="center">
-  <img src="japankify_voc_card.png" alt="Example Japankify Vocabulary Card" width="60%"><br>
+  <img src="images/japankify_voc_card.png" alt="Example Japankify Vocabulary Card" width="60%"><br>
   <em>A sample vocabulary card front & back</em>
 </p>
 
 <p align="center">
-  <img src="japankify_kan_card.png" alt="Example Japankify Kanji Card" width="60%"><br>
+  <img src="images/japankify_kan_card.png" alt="Example Japankify Kanji Card" width="60%"><br>
   <em>A sample kanji card front & back</em>
 </p>
 
@@ -169,7 +169,7 @@ Japankify’s Streamlit UI is engineered to eliminate cognitive friction, keepin
 
 
 <p align="center">
-  <img src="japankify_dico_word_not_found.png" alt="Custom Search Example" width="60%"><br>
+  <img src="images/japankify_dico_word_not_found.png" alt="Custom Search Example" width="60%"><br>
   <em>Search results for a non-JLPT dictionary item</em>
 </p>
 
@@ -193,13 +193,13 @@ The AWS backend monitors the user's study progress through a serverless architec
 * **Weekly study reports:** The volume and level of the various lexical items studied during the week are emailed to the user every Friday for effective weekend study & catch-up sessions planning.
 
 <p align="center">
-  <img src="japankify_no-study_no-sync_emails.png" alt="Sync & Study reminders" width="60%"><br>
+  <img src="images/japankify_no-study_no-sync_emails.png" alt="Sync & Study reminders" width="60%"><br>
   <em>Japankify's logs sync & study reminder emails</em>
 </p>
 
 
 <p align="center">
-  <img src="japankify_sample_weekly_email_report.jpg" alt="Weekly progress statistics" width="60%"><br>
+  <img src="images/japankify_sample_weekly_email_report.jpg" alt="Weekly progress statistics" width="60%"><br>
   <em>Japankify's weekly summary statistics report</em>
 </p>
 

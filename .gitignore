@@ -29,6 +29,7 @@ __pycache__/
 !assets/csv-to-parquet_converter.ipynb
 kanji_animations/
 numbered_stroke_order/
+*.pptx
 
 
 # --- User-Specific Notes (Requested) ---
