@@ -12,6 +12,7 @@ __pycache__/
 *.toml
 # Exempt GitHub Actions workflows
 !.github/workflows/
+/Medium
 .cache_ggshield
 
 # --- Streamlit & Secrets (CRITICAL) ---
@@ -29,6 +30,7 @@ __pycache__/
 !assets/csv-to-parquet_converter.ipynb
 kanji_animations/
 numbered_stroke_order/
+Medium/
 *.pptx
 
 
