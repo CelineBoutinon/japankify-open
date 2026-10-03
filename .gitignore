@@ -34,12 +34,10 @@ Medium/
 *.pptx
 
 
-# --- User-Specific Notes (Requested) ---
-# Excludes all your personal documentation and notes
+# --- Notes ---
 *.doc
 *.docx
 *.pdf
-# Also common for notes
 *.txt
 # Except requirements file
 !requirements.txt
